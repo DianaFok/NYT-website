@@ -1,0 +1,398 @@
+header {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 150px;
+  font-family: arial;
+}
+
+#hamburger {
+  display: none;
+}
+
+button {
+  color: white;
+  background-color: RGB(69,140,204);
+}
+
+.top, .last {
+  width: 100%;
+  height: 20%;
+}
+
+.middle {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 57.5%;
+}
+
+.middle img {
+  width: 500px;
+  height: 65px;
+  margin-top: -5px;
+  margin-bottom: -20px;
+}
+
+.middle span {
+  margin-top: 10px;
+}
+
+.small1, .small2, .small3 {
+  width: 33.2%;
+  height: 100%;
+  float: left;
+}
+
+.small1 a, .small2 a, .small3 a {
+  color: black;
+  font-size: 20px;
+  font-style: arial;
+  text-align: right;
+  margin-top: 0px;
+  margin-left: 60px;
+  text-decoration: none;
+  float: left;
+}
+
+.middle {
+  text-align: center;
+}
+
+.middle h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.last li {
+  float: left;
+  margin-top: -6px;
+  margin-left: 35px;
+  margin-right: 0px;
+  list-style-type: none;
+}
+
+.last a {
+  color: black;
+  text-decoration: none;
+}
+
+.one {
+  width: 23%;
+  height: 800px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.one h6 {
+  font-size: 15px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.one h2 {
+  font-style: italic;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.one h3 {
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.one span {
+  color: grey;
+}
+
+.one span {
+  font-size: 13px;
+}
+
+.two {
+  width: 37%;
+  height: 800px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+img {
+  width: 90%;
+  height: 300px;
+  margin-left: 29px;
+}
+
+.two h6 {
+  color: grey;
+  font-size: 100px;
+  font-weight: lighter;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.two h2 {
+  color: grey;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.two h3, .two h4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+hr {
+  color: grey;
+  width: 500px;
+  margin-top: 40px;
+}
+
+.two p {
+  margin-left: 5px;
+}
+
+.two span {
+  color: grey;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-left: 5px;
+}
+
+.mini1 {
+  width: 400px;
+  height: 200px;
+}
+
+.mini2 {
+  width: 100px;
+  height: 100px;
+  margin-top: -120px;
+  margin-left: 200px;
+}
+
+.two h6 {
+  margin-left: 140px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.two h5 {
+  width: 200px;
+  height: 120px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  float: left;
+}
+
+.obama {
+  width: 80px;
+  height: 80px;
+  margin-top: 4px;
+  margin-left: 40px;
+}
+
+.hand {
+  width: 80px;
+  height: 80px;
+  margin-top: -7px;
+  margin-left: 135px;
+}
+
+.blue {
+  width: 80px;
+  height: 80px;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+.guy {
+  width: 80px;
+  height: 80px;
+  margin-top: -7px;
+  margin-left: 90px;
+}
+
+.last h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  height: 100px;
+  width: 45%;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.last p {
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.vl {
+  border-right: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  .top a, .last a, .middle span {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    font-size: 20px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  .middle {
+    border-bottom: none;
+  }
+
+  .middle img {
+    width: 500px;
+    height: 110px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+    margin-left: 5px;
+  }
+
+  #getrid {
+    display: none;
+  }
+
+  .one {
+    width: 100%;
+    height: 400px;
+    margin-left: 10px;
+  }
+
+  .two {
+    width: 100%;
+    margin-top: 120px;
+    margin-left: 10px;
+    height: 400px;
+  }
+
+  .mini1 p {
+    margin-right: -10px;
+  }
+
+  .mini2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 601px) {
+  .top a, .last a {
+    display: none;
+  }
+
+  .middle img {
+    width: 450px;
+    height: 85px;
+    margin-top: -10px;
+    margin-bottom: -2px;
+    margin-left: 5px;
+  }
+
+  #hamburger {
+    display: block;
+    font-size: 20px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  #getrid {
+    display: none;
+  }
+
+  .one {
+    width: 100%;
+    height: 400px;
+    margin-left: 10px;
+  }
+
+  .two {
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 5px;
+    height: 400px;
+  }
+
+  .mini2 {
+    width: 140px;
+    height: 120px;
+    margin-top: -100px;
+    margin-left: 210px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 800px) {
+  .top a, .last a {
+    display: none;
+  }
+
+  img {
+    width: 85%;
+    height: 290px;
+    margin-top: -40px;
+    margin-left: 29px;
+  }
+
+  .middle img {
+    width: 450px;
+    height: 85px;
+    margin-top: -10px;
+    margin-bottom: -2px;
+    margin-left: 5px;
+  }
+
+  #hamburger {
+    display: block;
+    font-size: 25px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  #getrid {
+    display: none;
+  }
+
+  .one {
+    width: 100%;
+    height: 400px;
+    margin-left: 10px;
+  }
+
+  .one h3, .two h3 {
+    font-size: 40px;
+  }
+
+  .two {
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 5px;
+    height: 400px;
+  }
+
+  .mini2 {
+    width: 200px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: 210px;
+  }
+}
