@@ -1,5 +1,5 @@
 # New York Times Website 
-A prototype of the popular food site, nytimes.com. This demonstrates responsive web design for desktop, tablet, and mobile devices.
+A prototype of the popular news site, nytimes.com. This demonstrates responsive web design for desktop, tablet, and mobile devices.
 
 **View project in browser:** https://dfdev-nyt.netlify.app
 
